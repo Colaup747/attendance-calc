@@ -41,48 +41,32 @@
 
 ---
 
-## 🚀 Installation Guide
+## 🚀 1-Click Installation Guide
 
-Choose either of the two easy methods below:
+No manual ZIP extracting needed! The 1-click script downloads, unpacks, and configures the entire extension for you automatically.
 
-### 📦 Method 1: Direct Download (Easiest & Fastest — 1 Click)
+> ⚠️ **Important when downloading the installer script:**  
+> Browsers will open `.bat` and `.command` scripts as plain text if you normal left-click them!  
+> **👉 To download properly:** **Right-click the link below → select "Save link as..."** → save into your folder.
 
-> 💡 **Why this is best:** Clicking a `.zip` file instantly downloads the file to your computer without your browser accidentally opening it as plain text!
-
-1. **Download:** Click **[⬇️ Download attendance.zip (v3.0.7)](https://github.com/Colaup747/attendance-calc/raw/main/attendance.zip)**.
-2. **Extract:** Right-click the downloaded `attendance.zip` → **Extract All...** (e.g. into `Documents\Attendance`).
-3. **Load into Google Chrome:**
-   * Open Chrome and go to `chrome://extensions`.
-   * Turn **ON** the **Developer mode** toggle in the top-right corner.
-   * Click the **Load unpacked** button in the top-left corner.
-   * Select your extracted `Attendance` folder!
-4. **Pin the extension:** Click the puzzle icon 🧩 in Chrome's top bar and pin **Attendance Planner** 📌!
-
----
-
-### ⚡ Method 2: 1-Click Auto-Installer & Updater (Double-Click Setup)
-
-> ⚠️ **Important when downloading scripts in your browser:**  
-> If you regular left-click `.bat` or `.command` links, web browsers will simply display the script's raw code on your screen instead of downloading it!  
-> **👉 To download properly:** **Right-click the link → click "Save link as..."** → save into your folder.
-
-#### 🪟 Windows Setup
+### 🪟 Windows Setup
 
 1. **Create an empty folder** on your computer (e.g. `Documents\Attendance`).
-2. **Right-click** [**`windows-update.bat`**](https://raw.githubusercontent.com/Colaup747/attendance-calc/main/windows-update.bat) → select **Save link as...** → save it directly into your new `Attendance` folder.
-3. **Double-click `windows-update.bat`** inside that folder.
-   * It will automatically fetch the latest release, unpack all required files, and open Chrome's Extensions page for you!
+2. **Right-click** [**`windows-update.bat`**](https://raw.githubusercontent.com/Colaup747/attendance-calc/main/windows-update.bat) → select **Save link as...** → save it directly into that `Attendance` folder.
+3. **Double-click `windows-update.bat`** inside your folder.
+   * It will automatically fetch the latest release, unpack all extension files, and launch Chrome's Extensions page for you!
 4. **Load into Google Chrome:**
-   * In Chrome (`chrome://extensions`), make sure **Developer mode** is turned **ON** (top-right).
-   * Click **Load unpacked** and select your `Attendance` folder.
-5. **Pin the extension:** Click the puzzle icon 🧩 and pin **Attendance Planner** 📌!
+   * In Chrome (`chrome://extensions`), make sure **Developer mode** is turned **ON** in the top-right corner.
+   * Click the **Load unpacked** button in the top-left corner.
+   * Select your `Attendance` folder!
+5. **Pin the extension:** Click the puzzle icon 🧩 in Chrome's top bar and pin **Attendance Planner** 📌!
 
 ---
 
-#### 🍎 macOS Setup
+### 🍎 macOS Setup
 
 1. **Create an empty folder** (e.g. `Documents/Attendance`).
-2. **Right-click** [**`mac-update.command`**](https://raw.githubusercontent.com/Colaup747/attendance-calc/main/mac-update.command) → select **Save link as...** → save it into your folder.
+2. **Right-click** [**`mac-update.command`**](https://raw.githubusercontent.com/Colaup747/attendance-calc/main/mac-update.command) → select **Save link as...** → save it into that folder.
 3. **Double-click `mac-update.command`**.
    * If macOS displays an *unidentified developer* warning: Right-click the file → select **Open** → click **Open**.
 4. In Google Chrome (`chrome://extensions`):
@@ -92,7 +76,7 @@ Choose either of the two easy methods below:
 
 ---
 
-#### 🐧 Linux Setup
+### 🐧 Linux Setup
 
 1. **Open your terminal and run this 1-line command:**
    ```bash

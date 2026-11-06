@@ -1,4 +1,4 @@
-# 📊 Attendance Planner (v3.0.7)
+# 📊 Attendance Planner
 
 > **Know exactly how many days you can safely miss and still stay above your target attendance (default 80% or any custom %).**  
 > Built for students of Punjab Group of Colleges (PGC) with 1-click portal scraping, group cloud sync, and smart exam protection.

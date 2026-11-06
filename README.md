@@ -41,6 +41,24 @@
 
 ---
 
+## 🌐 Supported Browsers
+
+Attendance Planner is built on Chrome **Manifest V3** and runs smoothly on all major **Chromium-based desktop web browsers**:
+
+| Browser | Status | Extension Page URL |
+| :--- | :---: | :--- |
+| **Google Chrome** | ✅ **Supported** (Recommended) | `chrome://extensions` |
+| **Microsoft Edge** | ✅ **Supported** | `edge://extensions` |
+| **Brave Browser** | ✅ **Supported** | `brave://extensions` |
+| **Opera / Opera GX** | ✅ **Supported** | `opera://extensions` |
+| **Vivaldi** | ✅ **Supported** | `vivaldi://extensions` |
+| **Arc Browser** | ✅ **Supported** | Arc Settings → Extensions |
+| **Chromium** | ✅ **Supported** | `chrome://extensions` |
+
+> ℹ️ *Note: Firefox and Safari run on different extension architectures and are not supported.*
+
+---
+
 ## 🚀 1-Click Installation Guide
 
 No manual ZIP extracting needed! The 1-click script downloads, unpacks, and configures the entire extension for you automatically.

@@ -1,4 +1,4 @@
-# 📊 Attendance Planner
+# 📊 Attendance Planner (v3.0.7)
 
 > **Know exactly how many days you can safely miss and still stay above your target attendance (default 80% or any custom %).**  
 > Built for students of Punjab Group of Colleges (PGC) with 1-click portal scraping, group cloud sync, and smart exam protection.
@@ -41,31 +41,50 @@
 
 ---
 
-## 🚀 1-Click Installation Guide
+## 🚀 Installation Guide
 
-No manual ZIP extracting or terminal knowledge needed! The 1-click script downloads and sets up everything for you.
+Choose either of the two easy methods below:
 
-### 🪟 Windows Setup (Easiest)
+### 📦 Method 1: Direct Download (Easiest & Fastest — 1 Click)
 
-1. **Create an empty folder** anywhere on your computer (e.g. `Documents\Attendance`).
-2. **Download [`windows-update.bat`](https://raw.githubusercontent.com/Colaup747/attendance-calc/main/windows-update.bat)** and place it into that folder.  
-   *(Tip: Right-click the link above $\rightarrow$ **Save link as...** $\rightarrow$ save into your new folder).*
-3. **Double-click `windows-update.bat`**.
-   * It will download the latest version, unpack all required files, and open Chrome's Extensions page automatically!
-4. **Load into Google Chrome:**
-   * In Chrome, turn **ON** the **Developer mode** toggle in the top-right corner.
+> 💡 **Why this is best:** Clicking a `.zip` file instantly downloads the file to your computer without your browser accidentally opening it as plain text!
+
+1. **Download:** Click **[⬇️ Download attendance.zip (v3.0.7)](https://github.com/Colaup747/attendance-calc/raw/main/attendance.zip)**.
+2. **Extract:** Right-click the downloaded `attendance.zip` → **Extract All...** (e.g. into `Documents\Attendance`).
+3. **Load into Google Chrome:**
+   * Open Chrome and go to `chrome://extensions`.
+   * Turn **ON** the **Developer mode** toggle in the top-right corner.
    * Click the **Load unpacked** button in the top-left corner.
-   * Select your `Attendance` folder!
-5. **Pin the extension:** Click the puzzle icon 🧩 in Chrome's top bar and pin **Attendance Planner** 📌!
+   * Select your extracted `Attendance` folder!
+4. **Pin the extension:** Click the puzzle icon 🧩 in Chrome's top bar and pin **Attendance Planner** 📌!
 
 ---
 
-### 🍎 macOS Setup
+### ⚡ Method 2: 1-Click Auto-Installer & Updater (Double-Click Setup)
+
+> ⚠️ **Important when downloading scripts in your browser:**  
+> If you regular left-click `.bat` or `.command` links, web browsers will simply display the script's raw code on your screen instead of downloading it!  
+> **👉 To download properly:** **Right-click the link → click "Save link as..."** → save into your folder.
+
+#### 🪟 Windows Setup
+
+1. **Create an empty folder** on your computer (e.g. `Documents\Attendance`).
+2. **Right-click** [**`windows-update.bat`**](https://raw.githubusercontent.com/Colaup747/attendance-calc/main/windows-update.bat) → select **Save link as...** → save it directly into your new `Attendance` folder.
+3. **Double-click `windows-update.bat`** inside that folder.
+   * It will automatically fetch the latest release, unpack all required files, and open Chrome's Extensions page for you!
+4. **Load into Google Chrome:**
+   * In Chrome (`chrome://extensions`), make sure **Developer mode** is turned **ON** (top-right).
+   * Click **Load unpacked** and select your `Attendance` folder.
+5. **Pin the extension:** Click the puzzle icon 🧩 and pin **Attendance Planner** 📌!
+
+---
+
+#### 🍎 macOS Setup
 
 1. **Create an empty folder** (e.g. `Documents/Attendance`).
-2. **Download [`mac-update.command`](https://raw.githubusercontent.com/Colaup747/attendance-calc/main/mac-update.command)** into that folder.
+2. **Right-click** [**`mac-update.command`**](https://raw.githubusercontent.com/Colaup747/attendance-calc/main/mac-update.command) → select **Save link as...** → save it into your folder.
 3. **Double-click `mac-update.command`**.
-   * If macOS shows an *unidentified developer* warning: Right-click the file $\rightarrow$ select **Open** $\rightarrow$ click **Open**.
+   * If macOS displays an *unidentified developer* warning: Right-click the file → select **Open** → click **Open**.
 4. In Google Chrome (`chrome://extensions`):
    * Enable **Developer mode** in the top-right corner.
    * Click **Load unpacked** and select your `Attendance` folder.
@@ -73,22 +92,17 @@ No manual ZIP extracting or terminal knowledge needed! The 1-click script downlo
 
 ---
 
-### 🐧 Linux Setup
+#### 🐧 Linux Setup
 
-1. **Create an empty folder** on your computer:
+1. **Open your terminal and run this 1-line command:**
    ```bash
-   mkdir -p ~/attendance && cd ~/attendance
+   mkdir -p ~/attendance && cd ~/attendance && curl -s -L "https://raw.githubusercontent.com/Colaup747/attendance-calc/main/linux-update.sh" -o linux-update.sh && chmod +x linux-update.sh && ./linux-update.sh
    ```
-2. **Download [`linux-update.sh`](https://raw.githubusercontent.com/Colaup747/attendance-calc/main/linux-update.sh)** into that folder:
-   ```bash
-   curl -s -L "https://raw.githubusercontent.com/Colaup747/attendance-calc/main/linux-update.sh" -o linux-update.sh && chmod +x linux-update.sh
-   ```
-3. **Run `./linux-update.sh`**.
-   * It will download the latest version, unpack all extension files, and launch Chrome or Chromium to `chrome://extensions`.
-4. In Chrome / Chromium (`chrome://extensions`):
+   * It will automatically download the files, unpack the extension, and open your browser's extension page!
+2. In Chrome / Chromium (`chrome://extensions`):
    * Enable **Developer mode** in the top-right corner.
    * Click **Load unpacked** and select your `~/attendance` folder.
-5. Pin **Attendance Planner** 📌 to your toolbar!
+3. Pin **Attendance Planner** 📌 to your toolbar!
 
 ---
 
@@ -130,34 +144,34 @@ In Punjab Group of Colleges (PGC), maintaining your scholarship (e.g. 80%, 85%, 
 ### 🟢 1st Year (Part I) Students
 
 * **1st Installment:** Paid at the time of admission. It is **not** based on college attendance (since college hasn't started yet), but was granted based on your **Matric / SSC board marks**.
-* **2nd Installment:** Evaluated from your **Day 1 of college** $\rightarrow$ **the day before you receive the 2nd challan**.
-* **3rd Installment:** Evaluated from **the day you receive the 2nd challan** $\rightarrow$ **the day before you receive the 3rd challan**.
-* **4th Installment:** Evaluated from **the day you receive the 3rd challan** $\rightarrow$ **the day before you receive the 4th challan**.
+* **2nd Installment:** Evaluated from your **Day 1 of college** → **the day before you receive the 2nd challan**.
+* **3rd Installment:** Evaluated from **the day you receive the 2nd challan** → **the day before you receive the 3rd challan**.
+* **4th Installment:** Evaluated from **the day you receive the 3rd challan** → **the day before you receive the 4th challan**.
 * **🔥 Scholarship Continuation into 2nd Year (Crucial!):**  
-  Starting **the day you receive the 4th challan** in 1st year $\rightarrow$ **to the very last day of your 1st year session** (including send-up exams). Your attendance in this period determines whether your scholarship/concession continues into **2nd Year (Part II 1st Installment)**!
+  Starting **the day you receive the 4th challan** in 1st year → **to the very last day of your 1st year session** (including send-up exams). Your attendance in this period determines whether your scholarship/concession continues into **2nd Year (Part II 1st Installment)**!
 
 | 1st Year Window | Attendance Duration Evaluated | What It Decides |
 | :--- | :--- | :--- |
 | **1st Installment** | Paid at admission (based on SSC marks) | Initial Admission Concession |
-| **2nd Installment** | Day 1 of college $\rightarrow$ Day before 2nd challan | 2nd Installment Fee Concession |
-| **3rd Installment** | Day 2nd challan received $\rightarrow$ Day before 3rd challan | 3rd Installment Fee Concession |
-| **4th Installment** | Day 3rd challan received $\rightarrow$ Day before 4th challan | 4th Installment Fee Concession |
-| **Post-4th Challan** | Day 4th challan received $\rightarrow$ End of 1st year session | **Scholarship for 2nd Year (Part II 1st Installment)!** |
+| **2nd Installment** | Day 1 of college → Day before 2nd challan | 2nd Installment Fee Concession |
+| **3rd Installment** | Day 2nd challan received → Day before 3rd challan | 3rd Installment Fee Concession |
+| **4th Installment** | Day 3rd challan received → Day before 4th challan | 4th Installment Fee Concession |
+| **Post-4th Challan** | Day 4th challan received → End of 1st year session | **Scholarship for 2nd Year (Part II 1st Installment)!** |
 
 ---
 
 ### 🔵 2nd Year (Part II) Students
 
 * **1st Installment:** Evaluated on your attendance from the end of 1st year (the day you got your 4th challan until the 1st year session finished).
-* **2nd Installment:** Evaluated from **Day 1 of 2nd year** $\rightarrow$ **the day before you receive the 2nd challan**.
-* **3rd Installment:** Evaluated from **the day you receive the 2nd challan** $\rightarrow$ **the day before you receive the 3rd challan**.
-* **4th Installment:** Evaluated from **the day you receive the 3rd challan** $\rightarrow$ **the day before you receive the 4th challan**.
+* **2nd Installment:** Evaluated from **Day 1 of 2nd year** → **the day before you receive the 2nd challan**.
+* **3rd Installment:** Evaluated from **the day you receive the 2nd challan** → **the day before you receive the 3rd challan**.
+* **4th Installment:** Evaluated from **the day you receive the 3rd challan** → **the day before you receive the 4th challan**.
 
 | 2nd Year Window | Attendance Duration Evaluated | Example (From Ayub Park Campus Notice) |
 | :--- | :--- | :--- |
-| **2nd Installment** | Day 1 of 2nd year $\rightarrow$ Day before 2nd challan | Reopening $\rightarrow$ **14 September** (if 2nd challan is 15 Sep) |
-| **3rd Installment** | Day 2nd challan received $\rightarrow$ Day before 3rd challan | Sep 15 $\rightarrow$ **01 November** (if 3rd challan is 02 Nov) |
-| **4th Installment** | Day 3rd challan received $\rightarrow$ Day before 4th challan | Nov 02 $\rightarrow$ **20 December** (if 4th challan is 21 Dec) |
+| **2nd Installment** | Day 1 of 2nd year → Day before 2nd challan | Reopening → **14 September** (if 2nd challan is 15 Sep) |
+| **3rd Installment** | Day 2nd challan received → Day before 3rd challan | Sep 15 → **01 November** (if 3rd challan is 02 Nov) |
+| **4th Installment** | Day 3rd challan received → Day before 4th challan | Nov 02 → **20 December** (if 4th challan is 21 Dec) |
 
 ---
 
@@ -198,7 +212,7 @@ Because different PGC campuses issue challans on slightly different dates, you c
 * **Quick Change:** Simply change the **Window end** date picker in the top bar!
 * **Full Window Management:**
   1. Click **🛠️ Advanced** in the top bar.
-  2. Go to the **⚙️ Settings** tab $\rightarrow$ scroll down to **Fee-Installment Windows**.
+  2. Go to the **⚙️ Settings** tab → scroll down to **Fee-Installment Windows**.
   3. Edit the start and end dates to match your campus schedule, or click **+ Add Window**.
 
 ---
@@ -229,7 +243,7 @@ Because different PGC campuses issue challans on slightly different dates, you c
 Attendance Planner lets you model your real college timetable so you never miss an exam or get penalized for study holidays:
 
 ### 📝 1. Exam Days
-* Switch to **🛠️ Advanced** $\rightarrow$ go to the **📝 Exams** tab.
+* Switch to **🛠️ Advanced** → go to the **📝 Exams** tab.
 * Tap dates on the calendar to mark them as **Exams** (highlighted in purple).
 * **How it calculates:** An exam day is treated as **1 lecture** (instead of 6 lectures) and will **never** be suggested as a day to skip.
 
@@ -239,7 +253,7 @@ Attendance Planner lets you model your real college timetable so you never miss 
 * **How it calculates:** Prep leaves are counted as 0 lectures so they will not reduce your attendance safety cushion!
 
 ### 🏖️ 3. Official Holidays & College Trips
-* Switch to **🛠️ Advanced** $\rightarrow$ go to the **⚙️ Settings** tab $\rightarrow$ **Active Holidays**.
+* Switch to **🛠️ Advanced** → go to the **⚙️ Settings** tab → **Active Holidays**.
 * Tap dates to mark public holidays, national days (e.g. Kashmir Day, Iqbal Day), or college trip days.
 * **How it calculates:** College holidays count as 0 lectures.
 
@@ -257,7 +271,7 @@ Share your section's exam dates and study leaves so only one student needs to en
 > 🟢 **Pre-Configured Cloud Database:** Attendance Planner comes with a shared, high-speed cloud database ready out of the box (as confirmed by the live **🟢 Cloud Database: Connected & Operational** status badge). Setting up a custom Firebase URL is strictly optional for advanced users who wish to run their own private database instance.
 
 ### 👥 For Students (Joining an Existing Section):
-1. Click **🛠️ Advanced** in the top bar $\rightarrow$ go to the **🌐 Cloud** tab.
+1. Click **🛠️ Advanced** in the top bar → go to the **🌐 Cloud** tab.
 2. Under **👥 Join Section Group**, enter your **Section Code** (e.g. `ICS-2A` or `FSC-1B`), your **Name / Roll No**, and a **4-digit PIN**.
 3. Tap **🔐 Join Section**.
 4. Your extension will instantly pull all exam dates, prep offs, and holidays set up for your class!
